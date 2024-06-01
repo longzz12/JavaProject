@@ -59,7 +59,7 @@ public class MainFrame extends JFrame implements ActionListener {
         add(pnlHello,BorderLayout.NORTH);
         add(pnlLogin,BorderLayout.CENTER);
 
-        TextUser.setFocusable(true);
+        // TextUser.setFocusable(true);
         TextPw.setEchoChar('*');
         btnLogin.addActionListener(this);
         btnQuit.addActionListener(this);
